@@ -1,7 +1,7 @@
-***Anonymous DDoS Tool***
+###Anonymous DDoS Tool###
 This DDoS Tool has been written by Muneeb Khurram, and this Script could only be used for Educational Purposes see License.
 
-Installation
+##Installation##
 
 - Dependancies
 a) pyttsx3 (Text-to-Speech) Just to make it cooler.
