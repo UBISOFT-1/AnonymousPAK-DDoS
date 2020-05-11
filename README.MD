@@ -62,11 +62,17 @@ python3 Install_Dependancies.py
 python3 Python-Script.py
 ````
 ## Tested OS/ENV
--Linux Stable Release 2020
--Kali Linux 2019.3 
--Google Colab
--Windows 10
--MacOS X 10.10.5 Onwards (OS X Yosmite)
+
+- Linux Stable Release 2020
+
+- Kali Linux 2019.3
+
+- Google Colab
+
+- Windows 10
+
+- MacOS X 10.10.5 Onwards (OS X Yosmite)
+
 > This should run on all enviorments. Even on Oldest OS's provided the above dependancies are completed
 ## License
 All Copyrights Reserved to Muneeb Khurram, HULK-DoS Tool’s Copyrights to their Authors as well.
