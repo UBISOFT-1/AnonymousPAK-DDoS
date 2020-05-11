@@ -1,7 +1,7 @@
 This is a License issued by Anonymous Pakistan to all the DDoS Script Users. 
 - Use this by only Ethical Ways.
-- The author any Anonymous Pakistan are NOT Responsible in any way of misusing and destroying,
-someone’s website in anyway. 
+- The author and Anonymous Pakistan are NOT Responsible in any way of misusing and destroying,
+someone’s website in anyway. You are RESPONSIBLE, WE HAVE CREATED THIS FOR WHITE HATS NOT BLACK HATS.
 
 By using this Script you agree to the above terms and Conditions.
 
