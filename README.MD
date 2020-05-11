@@ -18,6 +18,17 @@ c) colorama (Another Step towards CLI Beauty)
 pip3 install colorama
 ````
 d) os (Already in Python3)
+```
+pip3 install os
+```
+e) socket
+```
+pip3 install socket
+```
+f) wheel
+```
+pip3 install wheel
+```
 e) GoLang (Download for your OS form Golang.org/dl/) 
 
 ## Other
