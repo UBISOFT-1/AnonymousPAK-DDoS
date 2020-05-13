@@ -2,6 +2,9 @@ This is a License issued by Anonymous Pakistan to all the DDoS Script Users.
 - Use this by only Ethical Ways.
 - The author and Anonymous Pakistan are NOT Responsible in any way of misusing and destroying,
 someone’s website in anyway. You are RESPONSIBLE, WE HAVE CREATED THIS FOR WHITE HATS NOT BLACK HATS.
+- This Program may be used commercially but in a Non-Profit manner i.e. in Linux Distros.
+- This Program can only be used by White hats Pen-Testers Commercially.
+- Using this Program for Nefarious Purposes is the sole responsibilty of the user.
 
 By using this Script you agree to the above terms and Conditions.
 
