@@ -14,6 +14,7 @@ try:
     os.system('pip3 install colorama')
     os.system('py -m pip install colorama')
     os.system('python -m pip install colorama')
+    os.system('sudo apt-get install figlet')
     print(
         '''[+] If this comes and you are on any OS just Ignore only if there is a py command not found as below;
           sh: py: command not found''')
