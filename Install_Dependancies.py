@@ -2,6 +2,10 @@ import os
 print('[+] Installing Dependancies for AnonymousPAK DDoS Attack')
 print('[+] Download GoLang from Golang.org/dl/')
 try:
+    os.system('python3 -m pip install wheel')
+    os.system('python -m pip install wheel')
+    os.system('pip3 install wheel')
+    os.system('py -m pip install wheel')
     os.system('python3 -m pip install pyfiglet')
     os.system('pip3 install pyfiglet')
     os.system('py -m pip install pyfiglet')
