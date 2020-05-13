@@ -5,7 +5,7 @@ This DDoS Tool has been written by Muneeb Khurram, and this Script could only be
 ## Installation
 
 #### - Dependancies
-a) pyttsx3 (Text-to-Speech) Just to make it cooler.
+a) pyttsx3 (Text-to-Speech) Just to make it cooler. Not Neccesary for GUI.
 ```
 pip3 install pyttsx3
 ```
