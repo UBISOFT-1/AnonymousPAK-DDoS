@@ -44,7 +44,8 @@ try:
     if 'N' == colab_status:
         if str(platform.system()) == 'Linux':
             print('[+] As you are on Linux, No, Text-to-Speech')
-        say_stuff("Attacking your Target Website {0} with {1} Threads".format(site, threads))
+        else:
+            say_stuff("Attacking your Target Website {0} with {1} Threads".format(site, threads))
 
     print('[+] Executing Command as Follows')
     print(Fore.GREEN +'HULKMAXPROCS={0} go run hulk.go -site {1}'.format(threads,site))
