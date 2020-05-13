@@ -9,7 +9,11 @@ By using this Script you agree to the above terms and Conditions.
 
 And Yes Do, What ever the F*** you want to do with it now,’
 Just Remember;
-### AnonDDoS (C) Muneeb Khurram
+
+### AnonymousPAK-DDoS (C) Muneeb Khurram
+
+Hulk.go is written and maintained by grafov. 
+See: https://github.com/grafov/hulk
 Use this for betterment of Society NOT Resposible for your Actions, by using this you agree to these.
 ;) 
 Enjoy!  
