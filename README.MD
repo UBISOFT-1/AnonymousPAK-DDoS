@@ -63,7 +63,7 @@ python3 Python-Script.py
 ````
 ## GUI Requirements
 
-> Install Pyfiglet and GoLang as Above and you are ready to go. Use this if you cannot satisfy one of the above dependancies. Higly Easy to use. 
+> Install Pyfiglet and GoLang as Above and you are ready to go. Use this if you cannot satisfy one of the above dependancies. Highly Easy to use. Recommended for Beginners using Windows. If you use this on a Linux Distro and get tkinter not found install tkinter. 
 
 ```
 python3 DDoS_GUI.py
