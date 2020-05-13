@@ -37,8 +37,13 @@ try:
     if 'y' == colab_status:
         print('OK, Now Not using Text-to-Speech to make ur Attack look' + Fore.RED+ ' Cool' + Fore.GREEN)
     if 'n' == colab_status:
-        say_stuff("Attacking your Target Website {0} with {1} Threads".format(site, threads))
+        if str(platform.system()) == 'Linux':
+            print('[+] As You are on Linux, No, Text-to-Speech')
+        else:
+            say_stuff("Attacking your Target Website {0} with {1} Threads".format(site, threads))
     if 'N' == colab_status:
+        if str(platform.system()) == 'Linux':
+            print('[+] As you are on Linux, No, Text-to-Speech')
         say_stuff("Attacking your Target Website {0} with {1} Threads".format(site, threads))
 
     print('[+] Executing Command as Follows')
