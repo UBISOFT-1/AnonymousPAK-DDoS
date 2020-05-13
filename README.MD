@@ -10,6 +10,10 @@ a) pyttsx3 (Text-to-Speech) Just to make it cooler. Not Neccesary for GUI.
 pip3 install pyttsx3
 ```
 b) pyfiglet (Cause its Neccesary to be Cooler)
+Install Figlet in Kali Linux as some results show that pyfiglet doesnt show anything.
+```
+sudo apt-get install figlet
+```
 ```
 pip3 install pyfiglet
 ```
