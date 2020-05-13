@@ -13,7 +13,10 @@ def say_stuff(stuff_to_say):
     engine.say(str(stuff_to_say))
     engine.runAndWait()
 print(Fore.GREEN + Back.BLACK)
-os.system('pyfiglet AnonymousPAK  DDoS Attack')
+if str(platform.system()) == 'Linux':
+    os.system('figlet AnonymousPAK DDoS Attack')
+else:
+    os.system('pyfiglet AnonymousPAK  DDoS Attack')
 
 print(Back.GREEN + Fore.GREEN +'[+] Anonymous DDoS tool by' + Fore.RED + 'Anonymous Pakistan Community                              ') 
 print(Back.GREEN + Fore.BLACK + '[+] AnonPAK-DDoS Tool BETA VERSION 0.1                                             ')
@@ -47,10 +50,9 @@ try:
     print(Back.BLACK + Fore.GREEN)
     
 except:
-    print(Fore.RED + '[+] Execution Stopped with Error Code 0, Install GoLang or Your Internet is not working properly')
-    print('[+] Installing Pyfiglet')
-    os.system('pip3 install pyfiglet')
-    os.system('python3 -m pip install pyfiglet')
-    os.system('py -m pip install pyfiglet')
-    print(Style.RESET_ALL)
+    print('[+] Execution Stopped with Error Code 0, Install GoLang or Your Internet is not working properly')
+    print('[+] Installing Dependancies')
+    os.system('python3 Install_Dependancies.py')
+    os.system('python Install_Dependancies.py')
+    os.system('py Install_Dependancies.py')
 
