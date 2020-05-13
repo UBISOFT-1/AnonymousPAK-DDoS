@@ -88,3 +88,4 @@ python3 DDoS_GUI.py
 ## License
 All Copyrights Reserved to Muneeb Khurram, HULK-DoS Tool’s Copyrights to their Authors as well.
 For all the Script Kiddes out there, Welcome to DDoS Heaven’s.
+See License before using
