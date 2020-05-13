@@ -1,6 +1,6 @@
 # Anonymous DDoS Tool
 
-This DDoS Tool has been written by Muneeb Khurram, and this Script could only be used for Educational Purposes see License.
+This DDoS Tool has been written by Muneeb Khurram, and this Script could only be used for Educational Purposes see License. Now added a GUI with only Two Dependancies Pyfiglet and GoLang.
 
 ## Installation
 
@@ -61,6 +61,13 @@ python3 Install_Dependancies.py
 ````
 python3 Python-Script.py
 ````
+## GUI Requirements
+
+> Install Pyfiglet and GoLang as Above and you are ready to go. Use this if you cannot satisfy one of the above dependancies. Higly Easy to use. 
+
+```
+python3 DDoS_GUI.py
+```
 ## Tested OS/ENV
 
 - Linux Stable Release 2020
