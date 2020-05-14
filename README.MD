@@ -85,6 +85,17 @@ python3 DDoS_GUI.py
 - MacOS X 10.10.5 Onwards (OS X Yosmite)
 
 > This should run on all enviorments. Even on Oldest OS's provided the above dependancies are completed
+
+## Images
+
+Showing some Interfaces and their Interactive Enviorments.
+
+![AnonymousDDoS_GUI](https://munublogs.files.wordpress.com/2020/05/screen-shot-2020-05-13-at-8.11.04-pm.png)
+
+![Terminal_Photos](https://munublogs.files.wordpress.com/2020/05/screen-shot-2020-05-13-at-8.09.41-pm.png)
+
+![Terminal_Photos2](https://munublogs.files.wordpress.com/2020/05/screen-shot-2020-05-13-at-8.10.30-pm.png)
+
 ## License
 All Copyrights Reserved to Muneeb Khurram, HULK-DoS Tool’s Copyrights to their Authors as well.
 For all the Script Kiddes out there, Welcome to DDoS Heaven’s.
