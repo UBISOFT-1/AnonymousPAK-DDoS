@@ -46,6 +46,13 @@ e) GoLang (Download for your OS form Golang.org/dl/)
 ### Linux
 
 > https://tecadmin.net/install-go-on-ubuntu/
+```
+sudo apt-get install golang
+```
+or
+```
+sudo apt-get install golang-go
+```
 
 ### Kali Linux
 
@@ -55,6 +62,8 @@ Check by typing;
 ```
 go 
 ```
+If not Follow, the above shown for Linux/Ubuntu
+
 
 ## Other
 Use Install_Dependancies.py to Install all of these except GoLang (it has to be downloaded Manually)
