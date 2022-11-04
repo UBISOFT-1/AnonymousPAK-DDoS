@@ -1,6 +1,16 @@
 import os
-print('[+] Installing Dependancies for AnonymousPAK DDoS Attack')
-print('[+] Download GoLang from Golang.org/dl/')
+class co:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+print(co.OKGREEN + '[+] Installing Dependancies for AnonymousPAK DDoS Attack' + co.ENDC)
+print(co.OKBLUE + '[+] Download GoLang from Golang.org/dl/'+ co.ENDC)
 try:
     os.system('python3 -m pip install wheel')
     os.system('python -m pip install wheel')
@@ -23,4 +33,4 @@ try:
         '''[+] If this comes and you are on any OS just Ignore only if there is a py command not found as below;
           sh: py: command not found''')
 except:
-    print('Just Install Pyfiglet, Pyttsx3 and GoLang and Colorma')
+    print(co.BOLD + 'Just Install Pyfiglet, Pyttsx3 and GoLang and Colorama' + co.ENDC)
